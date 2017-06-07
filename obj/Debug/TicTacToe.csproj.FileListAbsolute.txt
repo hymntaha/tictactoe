@@ -1,0 +1,8 @@
+/Users/tahauygun/Avatar/TicTacToe/bin/Debug/Tic Tac Toe.exe.config
+/Users/tahauygun/Avatar/TicTacToe/bin/Debug/Tic Tac Toe.exe
+/Users/tahauygun/Avatar/TicTacToe/bin/Debug/Tic Tac Toe.pdb
+/Users/tahauygun/Avatar/TicTacToe/obj/Debug/TicTacToe.Forms.MainForm.resources
+/Users/tahauygun/Avatar/TicTacToe/obj/Debug/TicTacToe.csproj.GenerateResource.Cache
+/Users/tahauygun/Avatar/TicTacToe/obj/Debug/TicTacToe.csproj.CoreCompileInputs.cache
+/Users/tahauygun/Avatar/TicTacToe/obj/Debug/Tic Tac Toe.exe
+/Users/tahauygun/Avatar/TicTacToe/obj/Debug/Tic Tac Toe.pdb

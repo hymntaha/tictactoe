@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{31A112B9-0BEE-4D48-A942-E856B5990D6B}|Default">
+  <MonoDevelop.Ide.ItemProperties.TicTacToe PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Forms/MainForm.cs">
+    <Files>
+      <File FileName="Grid.cs" Line="26" Column="10" />
+      <File FileName="Forms/MainForm.cs" Line="4" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
