@@ -51,18 +51,6 @@
         #endregion
 
         private ExitButton buttonExit;
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
 

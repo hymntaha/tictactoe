@@ -9,7 +9,7 @@ using TicTacToe.Forms;
 
 namespace TicTacToe
 {
-    static class Program
+    static class Pipeline
     {
         /**
          * Main pipeline

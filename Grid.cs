@@ -17,7 +17,6 @@ namespace TicTacToe
     {
         #region Properties
 
-
         // Gets
         public Cell[,] Cells { get; }
 
