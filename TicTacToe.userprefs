@@ -1,9 +1,18 @@
 ﻿<Properties StartupConfiguration="{31A112B9-0BEE-4D48-A942-E856B5990D6B}|Default">
   <MonoDevelop.Ide.ItemProperties.TicTacToe PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Forms/MainForm.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Forms/MainForm.Designer.cs">
     <Files>
-      <File FileName="Grid.cs" Line="26" Column="10" />
-      <File FileName="Forms/MainForm.cs" Line="4" Column="1" />
+      <File FileName="Grid.cs" Line="225" Column="54" />
+      <File FileName="Forms/MainForm.cs" Line="90" Column="9" />
+      <File FileName="Program.cs" Line="26" Column="1" />
+      <File FileName="Enumerations.cs" Line="1" Column="1" />
+      <File FileName="ComputerPlayer.cs" Line="158" Column="11" />
+      <File FileName="CellBlinker.cs" Line="4" Column="4" />
+      <File FileName="app.config" Line="4" Column="1" />
+      <File FileName="Forms/Cell.cs" Line="116" Column="1" />
+      <File FileName="Forms/ExitButton.cs" Line="12" Column="57" />
+      <File FileName="Forms/MainForm.resx" Line="1" Column="1" />
+      <File FileName="Forms/MainForm.Designer.cs" Line="8" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

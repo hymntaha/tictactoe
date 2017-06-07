@@ -18,10 +18,10 @@ namespace TicTacToe
         #region Properties
 
 
-        /// Gets
+        // Gets
         public Cell[,] Cells { get; }
 
-        /// Gets or sets whether all of the cells are enabled.
+        // Gets or sets whether all of the cells are enabled.
         public bool CellsEnabled
         {
             get { return Cells[0, 0].Enabled; }
@@ -34,7 +34,7 @@ namespace TicTacToe
             }
         }
 
-        /// Gets or sets the color of the grid.
+        // Gets or sets the color of the grid.
         public Color CellColor
         {
             get { return Cells[0, 0].BackColor; }
@@ -48,7 +48,7 @@ namespace TicTacToe
         }
 
         private int dimension = 3;
-        /// Gets or sets the amount of columns and rows in the grid, they are expected to be the same.
+        // Gets or sets the amount of columns and rows in the grid, they are expected to be the same.
         public int Dimension
         {
             get { return dimension; }
@@ -65,7 +65,7 @@ namespace TicTacToe
             }
         }
 
-        /// Gets the amount of moves that has been made.
+        // Gets the amount of moves that has been made.
         public int TotalMoves
         {
             get
@@ -82,12 +82,12 @@ namespace TicTacToe
             }
         }
 
-        /// Gets or sets the grid spacing.
+        // Gets or sets the grid spacing.
         public int GridSpacing { get; set; }
         #endregion
 
-        /// Initializes a new instance of the grid class with
-        /// the specified grid dimensions.
+        // Initializes a new instance of the grid class with
+        // the specified grid dimensions.
         public Grid(int dimension)
         {
             this.dimension = dimension;
@@ -105,7 +105,7 @@ namespace TicTacToe
             }
         }
 
-        /// Sets the state of all cells to none.
+        // Sets the state of all cells to none.
         public void Reset()
         {
             foreach (Cell cell in Cells)
@@ -114,7 +114,7 @@ namespace TicTacToe
             }
         }
 
-        /// Checks for a winner. 
+        // Checks for a winner. 
         public bool CheckForWinner()
         {
             // Check for vertical win
@@ -200,8 +200,8 @@ namespace TicTacToe
         }
 
 
-        /// Check to see if the current session is a tie. If it is, then
-        /// blink the tied cell.
+        // Check to see if the current session is a tie. If it is, then
+        // blink the tied cell.
         private void CheckForDraw()
         {
             var cellStack = new Stack<Cell>();
@@ -215,7 +215,7 @@ namespace TicTacToe
             CellBlinker.BlinkCells(Color.Purple, cellStack.ToArray());
         }
 
-        /// Gets how many moves a team has made.
+        // Gets how many moves a team has made.
         public int GetCountOf(Team cellState)
         {
             int count = 0;

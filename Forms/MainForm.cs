@@ -86,10 +86,8 @@ namespace TicTacToe.Forms
             }
         }
 
-        /// <summary>
-        /// Sets the size and location of all cells, 
-        /// taking the cell padding number into calculations.
-        /// </summary>
+        // Sets the size and location of all cells, 
+        // taking the cell padding number into calculations.
         private void SetCellBounds()
         {
             for (int i = 0; i < grid.Dimension; i++)

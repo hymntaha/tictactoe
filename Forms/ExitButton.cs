@@ -6,14 +6,10 @@ using System.Windows.Forms;
 
 namespace TicTacToe.Forms
 {
-    /// <summary>
-    /// Represents a <see cref="Button"/> to exit the application.
-    /// </summary>
+    // Represents a button to exit the application.
     class ExitButton : Control
     {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="ExitButton"/> class.
-        /// </summary>
+        // Initializes a new instance of the exit button class.
         public ExitButton()
         {
             Size = new Size(25, 25);

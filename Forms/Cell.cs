@@ -6,16 +6,12 @@ using System.Windows.Forms;
 
 namespace TicTacToe.Forms
 {
-    /// <summary>
-    /// Represents a tic-tac-toe cell.
-    /// </summary>
+    // Represents a tic-tac-toe cell.
     public class Cell : Control
     {
         // Created for more robust drawing
         private Color currentBackColor;
-        /// <summary>
-        /// Gets or sets the current background color.
-        /// </summary>
+        // Gets or sets the current background color.
         private Color CurrentBackColor
         {
             get { return currentBackColor; }
@@ -30,9 +26,8 @@ namespace TicTacToe.Forms
         }
 
         private Team cellState = Team.Undetermined;
-        /// <summary>
-        /// Gets what <see cref="Team"/> has played on this cell.
-        /// </summary>
+
+        // Gets what team has played on this cell.
         [Description("Determined what Team has played on this cell.")]
         public Team CellState
         {
@@ -50,15 +45,11 @@ namespace TicTacToe.Forms
             }
         }
 
-        /// <summary>
-        /// Occurs when a player has made a move.
-        /// </summary>
+        // Occurs when a player has made a move.
         [Description("Occurs when a player has made a move.")]
         public event EventHandler PlayerMoved = delegate { };
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="Cell"/> class.
-        /// </summary>
+        // Initializes a new instance of the <see cref="Cell"/> class.
         public Cell()
         {
             base.DoubleBuffered = true;
@@ -66,10 +57,7 @@ namespace TicTacToe.Forms
             base.Cursor = Cursors.Hand;
         }
 
-        /// <summary>
-        /// Raises the <see cref="E:System.Windows.Forms.Control.BackColorChanged"/> event.
-        /// </summary>
-        /// <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data. </param>
+        // Raises the <see cref="E:System.Windows.Forms.Control.BackColorChanged"/> event.
         protected override void OnBackColorChanged(EventArgs e)
         {
             base.OnBackColorChanged(e);
